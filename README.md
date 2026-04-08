@@ -13,7 +13,8 @@ Clash Verge 静态住宅 IP 配置与测试教程
 机场支持一键导入的话，直接导入即可。  
 如果没有一键导入，就复制订阅文件链接，粘贴到 Clash Verge 中自行导入。
 
-![1](https://github.com/user-attachments/assets/c8aab11e-5a92-4fbf-9d55-82ab9cc793c1)
+<img width="865" height="668" alt="1" src="https://github.com/user-attachments/assets/e5c825d9-0c6c-4075-a55a-36d9b0d98f85" />
+
 
 ### 第二步：提取机场文件代理组
 
@@ -21,11 +22,12 @@ Clash Verge 静态住宅 IP 配置与测试教程
 
 找到 `proxy-groups`，复制下面 **自动选择** 的整行内容（一般会有很多节点，内容较长），粘贴到新建的记事本文档中备用。
 
+<img width="865" height="668" alt="2" src="https://github.com/user-attachments/assets/5c2f7824-5a2c-4120-8815-fc18e7469aaa" />
+
 如果机场文件里没有 **自动选择** 这个名称，就找 `type` 类型为 `url-test` 的代理组并复制粘贴。
 
-![2](https://github.com/user-attachments/assets/a74d6f6f-6f3d-4606-8cc5-e04ea48262c7)
+<img width="865" height="77" alt="3" src="https://github.com/user-attachments/assets/f658d1c8-45b4-4123-9c7e-479339c53340" />
 
-![3](https://github.com/user-attachments/assets/49748b2d-28f3-407e-a482-09077998c9b6)
 
 ### 第三步：修改 Merge 文件
 
@@ -62,7 +64,8 @@ proxy-providers:
 rules:
   - MATCH,商品卡77888
 ```
-<img width="865" height="671" alt="4" src="https://github.com/user-attachments/assets/c94c188c-82bc-4100-a1c9-af7aecffa1c6" />
+<img width="865" height="671" alt="4" src="https://github.com/user-attachments/assets/ca82ea81-ee77-4f1c-9bff-1b61674df6c3" />
+
 
 ### 第四步：测试节点
 
@@ -72,7 +75,7 @@ rules:
 
 最后打开左侧 **首页** 页面，在 **网络设置** 中开启 **系统代理**，代理就正式生效了。
 
-![测试节点](https://github.com/user-attachments/assets/84eb1719-6ba9-46a3-abf4-9be798053ae9)
+
 
 ### 第五步：测试节点纯洁度
 
@@ -82,4 +85,5 @@ rules:
 - [ip2location](https://www.ip2location.com/demo)
 - [ipinfo](https://ipinfo.io/)
 
-<img width="1162" height="480" alt="b40714743bdd81ee26426e1899fc7605" src="https://github.com/user-attachments/assets/cd9d4a4b-1bb9-4727-b16e-01cffbf031af" />
+<img width="1162" height="480" alt="b40714743bdd81ee26426e1899fc7605" src="https://github.com/user-attachments/assets/f52bf5af-62d6-40d8-867b-92206637b44b" />
+
